@@ -3,7 +3,7 @@ FROM gcr.io/google.com/cloudsdktool/cloud-sdk:latest
 WORKDIR /root
 
 # Copies the trainer code to the docker image.
-COPY pipeline.py /root/pipeline.py
+COPY main.py /root/main.py
 COPy requirements.txt /root/requirements.txt
 COPY script.sh /root/script.sh
 
