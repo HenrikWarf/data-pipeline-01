@@ -3,3 +3,5 @@ google-cloud-aiplatform
 dbt-core
 dbt-bigquery
 gunicorn
+flask
+pyarrow
