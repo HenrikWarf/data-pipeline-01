@@ -1,4 +1,4 @@
-google-cloud-bigquery==2.34.4 
+google-cloud-bigquery==3.30
 google-cloud-aiplatform==1.18.3 
 dbt-core==1.7.10
 dbt-bigquery==1.7.6
