@@ -1,9 +1,6 @@
 from datetime import datetime
 import os
 import sys
-from google.cloud import aiplatform
-from google.cloud.aiplatform import gapic as aip
-
 from flask import Flask
 
 app = Flask(__name__)
