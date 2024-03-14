@@ -4,6 +4,7 @@ WORKDIR /root
 
 # Copies the trainer code to the docker image.
 COPY pipeline.py /root/pipeline.py
+COPy requirements.txt /root/requirements.txt
 
 # Installs additional packages
 RUN pip3 install -r requirements.txt 
