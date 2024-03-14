@@ -1,7 +1,7 @@
+gunicorn
+flask
+pyarrow
 google-cloud-bigquery
 google-cloud-aiplatform
 dbt-core
 dbt-bigquery
-gunicorn
-flask
-pyarrow
