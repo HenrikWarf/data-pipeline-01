@@ -9,16 +9,8 @@
 
 {{ config(materialized='table') }}
 
-with source_data as (
-
-    select 1 as id
-    union all
-    select null as id
-
-)
-
 select *
-from source_data
+from crazy_clean_room_sales_data_parch_posey.accounts
 
 /*
     Uncomment the line below to remove records with null `id` values
