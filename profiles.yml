@@ -1,6 +1,7 @@
 i_am_a_profile_name:  data_pipeline_01 # your profile name from dbt_project.yml
   target: dev  # your development environment
   outputs:
+  
     dev:
       type: bigquery
       method: service-account
@@ -11,6 +12,7 @@ i_am_a_profile_name:  data_pipeline_01 # your profile name from dbt_project.yml
       timeout_seconds: 300
       priority: interactive
       retries: 1
+
     prod: # your production environment
       type: bigquery
       method: service-account
