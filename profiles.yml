@@ -12,13 +12,13 @@ data_pipeline_01:
         priority: interactive
         retries: 1
 
-      # prod:
-      #     type: bigquery
-      #     method: service-account
-      #     project: dev-data-01-8777  
-      #     dataset: dbt_production  
-      #     threads: 4
-      #     keyfile: /secrets/dbt-service-keyfile
-      #     timeout_seconds: 300
-      #     priority: interactive
-      #     retries: 1
+      prod:
+          type: bigquery
+          method: service-account
+          project: dev-data-01-8777  
+          dataset: dbt_production  
+          threads: 4
+          keyfile: /secrets/dbt-service-keyfile
+          timeout_seconds: 300
+          priority: interactive
+          retries: 1
