@@ -12,7 +12,8 @@ def run_pipeline():
 
     import subprocess
 
-    result = subprocess.call(["/bin/sh", "script.sh"], shell=True, capture_output=True, text=True)
+    result = subprocess.call(["/bin/sh", "./script.sh"])
+    #, shell=True, capture_output=True, text=True
 
     print(result.stdout)
 
