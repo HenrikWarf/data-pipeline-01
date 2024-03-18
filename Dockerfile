@@ -3,9 +3,10 @@ FROM gcr.io/google.com/cloudsdktool/cloud-sdk:latest
 WORKDIR /root
 
 # Copies the trainer code to the docker image.
-COPY main.py /root/main.py
-COPy requirements.txt /root/requirements.txt
-COPY script.sh /root/script.sh
+COPY . /root/
+#COPY main.py /root/main.py
+#COPy requirements.txt /root/requirements.txt
+#COPY script.sh /root/script.sh
 
 # Installs additional packages
 RUN pip3 install -r requirements.txt 
