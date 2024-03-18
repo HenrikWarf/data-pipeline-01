@@ -10,7 +10,7 @@
 {{ config(materialized='table') }}
 
 select *
-from crazy_clean_room_sales_data_parch_posey.accounts
+from customer_data_parch_posey.accounts
 
 /*
     Uncomment the line below to remove records with null `id` values
